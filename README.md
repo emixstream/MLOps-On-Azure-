@@ -1,19 +1,24 @@
-# MLOps-On-Azure-
+# Azure MLOps Talk
 
-For the University course Technological Infrastructures for Data Science my team has chosen to address
-the innovative and very interesting topic of machine learning operations. 
-Every good Data Engineer/ Data Scientist should know well how to deploy (edit, validate, optimize) and distribute
-Machine Learning related code and applications on the cloud.
+(https://www.youtube.com/watch?v=pLd7xF0z5Zs)
 
-In this case we chose Azure, a very neat and powerful cloud platform to integrate machine learning pipelines that allow full 
-collaboration between data scientists, data engeneers, operational engineers, softwer testers, business experts,
-analysts and managers. 
+# Introduction 
+Fully Automated end-to-end Training and Deployment of IRIS Classifer using Azure MLOps
+# Prerequisites
+1. Azure [Account] (https://azure.microsoft.com/en-in/free/search/?&ef_id=EAIaIQobChMIhIHs3_Ca7wIVI4ZLBR0yKQsDEAAYASAAEgLhFvD_BwE:G:s&OCID=AID2100054_SEM_EAIaIQobChMIhIHs3_Ca7wIVI4ZLBR0yKQsDEAAYASAAEgLhFvD_BwE:G:s)
+2. Understanding of [Azure DevOps](https://azure.microsoft.com/en-in/services/devops/)
+# Getting Started
+1.	Read more about [Azure MLOps](https://azure.microsoft.com/en-in/services/machine-learning/mlops/)
 
-I take a boiler plate classification application, (dataset Iris :/) and deploy it into azure cloud. 
-Here you can have a look at all the CLI commands, Bash scripting and the python boiler plate code with 
-impelemnted test and config files.
+# Azure DevOps Instructions
+1. Create a Code Repo/Link git repos
+2. Create a Project named MLOpsIRIS
+3. Create a Service Connection ( This will be used in Build and Deploy pipelines). Project Settings --> Service Connections --> New Service Connections --> Azure Resource Manager 
 
-Dev Ops with machine learning can really speed up the process that leads from data to economic value! All the stake holders are involved.
-Performance with machine learning integration has no limits other than the costs a company is willing to invest in big data management!!
+# Build & Deploy Steps
+1. Build steps can be found in CLI Commands/Build direectory
+2. Deployment steps can be found in CLI Commands/Deploy direectory
 
-Feel free to reach out for any question!!!
+Build and Deploy screenshots can be found in screenshots folder.
+
+
