@@ -2,7 +2,7 @@
 
 ### During the Technological Infrastructure for Data Science course, my team and I decided to explore the interesting topic of Machine Learning Operation (MLOps).
 
-### In this repo you will find the presentation of the topic and the code that was used to reproduce a deployment on the Microsoft Azure infrastructure. Doing this was possible thanks to the guidance of Srijith, who held a webinar on the topic and released the code that was used for this demo.
+### In this repo you will find the presentation of the topic and the code that was used to reproduce a deployment on the Microsoft Azure infrastructure. Doing this was possible thanks to the guidance of Srijith, who held a webinar on the topic and partially released the code that was used for this demo.
 
 ### Many Thanks to Srijith for this amazing tutorial:
 
